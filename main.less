@@ -82,7 +82,7 @@
 
 .CodeMirror-nonmatchingbracket {
     background-color: fadeout(@red, 20%);
-    color: @white;
+    color: @white !important;
 }
 
 .CodeMirror-focused .CodeMirror-nonmatchingbracket {
@@ -90,13 +90,12 @@
 }
 
 .CodeMirror-matchingbracket {
-    border-bottom: 2px solid fade(@green, 70%);
-    background-color: transparent;
+    background-color: darken(@gray, 10%);
     color: @white !important;
 }
 
 .CodeMirror-focused .CodeMirror-matchingbracket {
-    border-bottom-color: @green;
+    background-color: @gray;
 }
 
 .CodeMirror-matchingtag {
