@@ -1,0 +1,19 @@
+{
+    "title": "Quick Dark",
+    "name": "quick-dark",
+    "description": "A dark theme (based on EasyDark) that does not strain your eyes and makes your code pretty.",
+    "version": "1.0.0",
+    "author": "Increment Web Services <cheesypoof@users.noreply.github.com>",
+    "homepage": "https://github.com/cheesypoof/QuickDark",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cheesypoof/QuickDark.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "main.less",
+        "dark": true
+    }
+}
