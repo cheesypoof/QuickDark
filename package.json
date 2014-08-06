@@ -3,7 +3,7 @@
     "name": "quick-dark",
     "description": "A dark theme (based on EasyDark) that does not strain your eyes and makes your code pretty.",
     "version": "1.0.0",
-    "author": "Increment Web Services <cheesypoof@users.noreply.github.com>",
+    "author": "Increment Web Services",
     "homepage": "https://github.com/cheesypoof/QuickDark",
     "repository": {
         "type": "git",
