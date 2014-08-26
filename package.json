@@ -26,7 +26,7 @@
     },
 
     "engines": {
-        "brackets": ">=0.42.0"
+        "brackets": ">=0.43.0"
     },
 
     "version": "1.0.6"
