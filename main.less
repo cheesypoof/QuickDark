@@ -27,9 +27,9 @@
 @selection-color-unfocused: fade(@gray, 40%);
 
 /* Active line colors */
-@active-line-bgcolor:        fade(@gray, 40%);
-@active-line-number-bgcolor: fade(@gray, 25%);
-@active-line-number-color:   @white;
+@active-line-bg:           fade(@gray, 40%);
+@active-line-gutter-bg:    fade(@gray, 25%);
+@active-line-number-color: @white;
 
 
 /* Editor styling */
@@ -122,12 +122,8 @@
     background-color: darken(@gray, 10%);
 }
 
-.CodeMirror-gutter-elt {
+.CodeMirror-linenumber {
     color: @comment !important;
-}
-
-.CodeMirror-activeline .CodeMirror-gutter-elt {
-    color: @foreground !important;
 }
 
 .CodeMirror-activeline .CodeMirror-linenumber {
@@ -135,19 +131,19 @@
 }
 
 .CodeMirror-activeline-background {
-    background-color: fadeout(@active-line-bgcolor, 15%) !important;
+    background-color: fadeout(@active-line-bg, 15%) !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background-color: @active-line-bgcolor !important;
+    background-color: @active-line-bg !important;
 }
 
 .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background-color: fadeout(@active-line-number-bgcolor, 15%);
+    background-color: fadeout(@active-line-gutter-bg, 15%);
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background-color: @active-line-number-bgcolor;
+    background-color: @active-line-gutter-bg;
 }
 
 .CodeMirror-cursor {
