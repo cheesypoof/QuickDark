@@ -161,6 +161,19 @@
     color: darken(@white, 30%);
 }
 
+.CodeMirror-foldgutter-open::after {
+    color: darken(@gray, 10%);
+}
+
+.over-gutter .CodeMirror-foldgutter-open::after {
+    color: @gray;
+}
+
+.CodeMirror-activeline .CodeMirror-foldgutter-open::after,
+.CodeMirror-foldgutter-folded::after {
+    color: @foreground;
+}
+
 
 /* Non-editor styling */
 .not-editor {
